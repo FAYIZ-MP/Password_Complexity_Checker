@@ -8,19 +8,20 @@ A **Flask-based web app** that instantly evaluates password strength, guiding us
 ✔️ **User-Friendly & Responsive UI**  
 ✔️ **Color-coded Feedback** (Weak 🔴 | Moderate 🟠 | Strong 🟢)  
 
+## Quick Start  
 
-##  Quick Start  
-
-1️⃣ **Clone the Repository**  
+### 1️⃣ Clone the Repository  
 ```sh
 git clone https://github.com/FAYIZ-MP/PRODIGY_CS_03.git  
 cd password-complexity-checker  
 ```  
-2️⃣ **Install Dependencies**  
+
+### 2️⃣ Install Dependencies  
 ```sh
 pip install flask  
 ```  
-3️⃣ **Run the Application**  
+
+### 3️⃣ Run the Application  
 ```sh
 python app.py  
 ```  
@@ -31,14 +32,10 @@ python app.py
 ⚠️ **Moderate Password (🟠)** – Can be improved.  
 ❌ **Weak Password (🔴)** – Needs strengthening.  
 
-
 ## 🖼️ Screenshot  
-Upload a screenshot of the app interface here:  
-```
-![App Screenshot](screenshot.png)
-```
+(Screenshot%202025-02-14%20121252.png)  
 
-## Future Enhancements  
+##  Future Enhancements  
 🔹 Real-time validation via AJAX  
 🔹 Custom password recommendations  
 🔹 Secure password generator integration  
@@ -49,4 +46,3 @@ Developed by **Fayiz M P**, a passionate **Cybersecurity Engineer & Developer** 
 🔗 [LinkedIn](https://www.linkedin.com/in/fayiz-m-p-361228295) | [GitHub](https://github.com/FAYIZ-MP)  
 
 🔐 **Ensure Strong Passwords with Ease!**
-
