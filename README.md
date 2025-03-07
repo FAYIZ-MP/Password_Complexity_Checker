@@ -18,17 +18,24 @@ A simple and interactive web app that evaluates password strength using Flask.
 ## 📦 Setup & Run
 ```bash
 # Clone repo
-git clone https://github.com/your-username/password-checker.git
+git clone [https://github.com/FAYIZ-MP/PRODIGY_CS_03.git]
 cd password-checker
+```
 
 # (Optional) Create & activate virtual environment
+```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
+Windows: venv\Scripts\activate
+
+```
 
 # Install dependencies
+```bash
 pip install flask
-
+```
 # Run the app
+```bash
 python app.py
 ```
 
