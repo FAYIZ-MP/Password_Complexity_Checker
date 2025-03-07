@@ -1,48 +1,52 @@
-# 🔐 Password Complexity Checker  
+# 🔐 Password Complexity Checker
 
-## 📌 Overview  
-A **Flask-based web app** that instantly evaluates password strength, guiding users to create **stronger and more secure** passwords.  
+A simple and interactive web app that evaluates password strength using Flask.
 
-## ⚡ Features  
-✔️ **Real-time Password Strength Analysis**  
-✔️ **User-Friendly & Responsive UI**  
-✔️ **Color-coded Feedback** (Weak 🔴 | Moderate 🟠 | Strong 🟢)  
+## 🚀 Features
+✅ Checks for uppercase, lowercase, digits, special characters & length (8+).
+🎨 Color-coded feedback:
+   - 🟢 **Strong Password** ✅
+   - 🟠 **Moderate Password** ⚠️
+   - 🔴 **Weak Password** ❌
+📌 User-friendly interface.
 
-## Quick Start  
+## 🛠 Tech Stack
+- **Backend:** Flask (Python)
+- **Frontend:** HTML, CSS
+- **Logic:** Regular Expressions (Regex)
 
-### 1️⃣ Clone the Repository  
-```sh
-git clone https://github.com/FAYIZ-MP/PRODIGY_CS_03.git  
-cd password-complexity-checker  
-```  
+## 📦 Setup & Run
+```bash
+# Clone repo
+git clone https://github.com/your-username/password-checker.git
+cd password-checker
 
-### 2️⃣ Install Dependencies  
-```sh
-pip install flask  
-```  
+# (Optional) Create & activate virtual environment
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
-### 3️⃣ Run the Application  
-```sh
-python app.py  
-```  
+# Install dependencies
+pip install flask
 
-## 🛠️ How It Works  
-🔍 Evaluates **uppercase, lowercase, digits, special characters, and length** (8+ chars).  
-✅ **Strong Password (🟢)** – Secure & recommended.  
-⚠️ **Moderate Password (🟠)** – Can be improved.  
-❌ **Weak Password (🔴)** – Needs strengthening.  
+# Run the app
+python app.py
+```
+Access the app at **`http://127.0.0.1:5000/`**.
 
-## 🖼️ Screenshot  
-(Screenshot121252.png)  
+## 📂 Project Structure
+```
+password-checker/
+│-- templates/
+│   ├── index.html
+│-- static/
+│   ├── style.css
+│-- app.py
+│-- README.md
+```
 
-##  Future Enhancements  
-🔹 Real-time validation via AJAX  
-🔹 Custom password recommendations  
-🔹 Secure password generator integration  
+## 📸 Preview
+![Screenshot](Screenshot121252.png)
 
-## 👨‍💻 About the Developer  
-Developed by **Fayiz M P**, a passionate **Cybersecurity Engineer & Developer** focused on creating secure and innovative applications.  
+## 📜 License
+Licensed under the **MIT License**.
 
-🔗 [LinkedIn](https://www.linkedin.com/in/fayiz-m-p-361228295) | [GitHub](https://github.com/FAYIZ-MP)  
-
-🔐 **Ensure Strong Passwords with Ease!**
