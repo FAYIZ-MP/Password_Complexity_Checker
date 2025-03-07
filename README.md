@@ -33,7 +33,7 @@ python app.py
 ❌ **Weak Password (🔴)** – Needs strengthening.  
 
 ## 🖼️ Screenshot  
-(Screenshot%202025-02-14%20121252.png)  
+(Screenshot121252.png)  
 
 ##  Future Enhancements  
 🔹 Real-time validation via AJAX  
