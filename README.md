@@ -2,13 +2,13 @@
 
 A simple and interactive web app that evaluates password strength using Flask.
 
-## 🚀 Features
-✅ Checks for uppercase, lowercase, digits, special characters & length (8+).
+## Features
+▫️ Checks for uppercase, lowercase, digits, special characters & length (8+).
 🎨 Color-coded feedback:
    - 🟢 **Strong Password** ✅
    - 🟠 **Moderate Password** ⚠️
    - 🔴 **Weak Password** ❌
-📌 User-friendly interface.
+
 
 ## 🛠 Tech Stack
 - **Backend:** Flask (Python)
@@ -31,7 +31,6 @@ pip install flask
 # Run the app
 python app.py
 ```
-Access the app at **`http://127.0.0.1:5000/`**.
 
 ## 📂 Project Structure
 ```
@@ -50,3 +49,7 @@ password-checker/
 ## 📜 License
 Licensed under the **MIT License**.
 
+## 👨‍💻 About the Developer
+Developed by **Fayiz M P**, a passionate **Cybersecurity Engineer & Developer** focused on creating secure and innovative applications.
+
+🔗 [LinkedIn]www.linkedin.com/in/fayiz-m-p-361228295 | [GitHub]https://github.com/FAYIZ-MP
