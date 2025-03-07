@@ -17,7 +17,6 @@ A simple and interactive web app that evaluates password strength using Flask.
 
 ## 📦 Setup & Run
 ```bash
-# Clone repo
 git clone [https://github.com/FAYIZ-MP/PRODIGY_CS_03.git]
 cd password-checker
 ```
